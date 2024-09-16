@@ -71,6 +71,10 @@
                 Console.WriteLine($"Användarnamn: {user1.Username}");
                 Console.WriteLine($"Lösenord: {user1.Password}");
             }
+            else
+            {
+                Console.WriteLine("Fel värde, försök igen");
+            }
 
         }
     }
